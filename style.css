@@ -1,0 +1,333 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+html, body{
+    height:100%;
+    width:100%;
+    background-color: #ffff;
+   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+#main{
+    height:100%;
+    width:100%;
+    background-color:#F5F3EF; 
+    border:1px solid transparent;
+}
+#main #nav{
+   width:100%;
+   display: flex;
+   justify-content: flex-end;
+   gap:10px;
+   position:fixed;
+   top:30px;
+   right:20px;
+}
+#nav h3{
+    padding:15px 20px;
+    border-radius: 30px;
+    background-color: #000;
+    color:#fff;
+}
+#main #text h1{
+    padding:55px 60px 0px 55px;
+   font-size: 145px;
+   letter-spacing: -4px;
+   font-weight: 550;
+   line-height: 135px;
+}
+
+#main #location-text{
+    /* margin-top: 30px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: green; */
+    font-size: 22px;
+    padding:55px ;
+}
+#main #location-text #scroll{
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#location-text #scroll i{
+    font-size: 34px;
+}
+
+#main #photo{
+    height: 650px;
+    width:100%;
+    margin-top: 5vh;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b33c593db89d/6458a6db645ec6a527000cfa_home-hero-p-2000.webp);
+    background-size: cover;
+    background-position-y: 30%;
+}
+
+#main #about-me{
+    margin: 30px 55px;
+    padding:40px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#main #about-me #about{
+    width:70%;
+    font-size: 80px;
+    font-weight: 300;
+    padding-right: 2%;
+    line-height: 80px;
+}
+#main #about-me #right{
+    width:30%;
+    font-size: 25px;
+    font-weight: 600;
+    padding-left: 50px;
+    border-left: 2px solid #000;
+    display: flex;
+    flex-direction: column;
+    gap: 250px;
+    
+}
+#about-me #right #icons{
+    display:flex;
+    align-items: center;
+    gap: 10px;
+}
+#about-me #right #icons i{
+    padding:12px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: 200;
+    color:#fff;
+    background-color: #000;
+}
+
+#main #what-i-do{
+    margin: 30px 55px;
+    padding:40px 0;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    border-bottom: 2px solid #000;
+    border-top: 2px solid #000;
+}
+#what-i-do #left{
+    width:35%;
+    /* background-color: green; */
+}
+#what-i-do #left #do{
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+#what-i-do #right{
+    width:65%;
+    border-left: 2px solid #000;
+    padding-left:50px
+}
+#what-i-do #right #top{
+    width:100%;
+    display: flex;
+    margin-bottom:50px;
+}
+#what-i-do #right #top #first{
+    width:50%;
+    padding-right:50px;
+    padding-bottom:50px;
+    /* background-color: yellow; */
+
+}
+#what-i-do #right #top #first >h3{
+   font-size: 30px;
+   padding-bottom: 10px;
+}
+#what-i-do #right #top #first >p{
+    width:350px;
+    font-size: 20px;
+}
+#what-i-do #right #top #second{
+    width:50%;
+    border-left: 2px solid #000;
+    padding-left:50px;
+    padding-bottom:50px;
+}
+#what-i-do #right #top #second >h3{
+   font-size: 30px;
+   padding-bottom: 10px;
+}
+#what-i-do #right #top #second >p{
+    width:350px;
+    font-size: 20px;
+}
+#what-i-do #right #bottom{
+    display: flex;
+    border-top:2px solid #000;
+    padding-top:50px;
+}
+#what-i-do #right #bottom #first{
+    width:50%;
+    /* padding-left:50px; */
+    padding-bottom:50px;
+    padding-right:50px;
+}
+#what-i-do #right #bottom #first >h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#what-i-do #right #bottom #first >p{
+    width:350px;
+    font-size: 20px;
+}
+#what-i-do #right #bottom #second{
+    width:50%;
+    border-left: 2px solid #000;
+    padding-left:50px;
+    padding-bottom:50px;  
+}
+#what-i-do #right #bottom #second >h3{
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+#what-i-do #right #bottom #second >p{
+    width:350px;
+    font-size: 20px;
+}
+
+#main #work h2{
+    font-size: 150px;
+    white-space:nowrap;
+    overflow: hidden;
+}
+
+#main #hero-img1{
+    height: 80vh;
+    width:100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad0d8364135d4087b9c8_project-01-p-2000.webp);
+    background-size: cover;
+}
+#main #hero-img2{
+    height: 80vh;
+    width:100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad129d3885d86c115c7f_project-02-p-2000.webp);
+    background-size: cover;
+    background-position-y: -40px;
+} 
+#main #hero-img3{
+    height: 80vh;
+    width:100%;
+    background-image: url(https://assets-global.website-files.com/64589fb989b2b3e8783db8c8/645cad1988b7ca338942d0b3_project-03-p-2000.webp);
+    background-size: cover;
+    /* background-position-y: -40px; */
+}      
+
+#main #camera{
+    padding:50px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    
+}
+#camera h2{
+    font-size: 150px;
+}
+#camera #text {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+#camera #text p:nth-child(1){
+    width:700px;
+    font-size: 25px;
+}
+#camera #text p span{
+    padding:12px;
+    background-color: #000;
+    margin-right: 15px;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 550;
+    color:#fff;
+}
+
+#team{
+    margin-top:25px;
+    display: flex;
+    align-items: center;
+    gap:10px;
+}
+#team #profile{
+    height: 60px;
+    width:60px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+#team #profile img{
+    height: 100%;
+    width:100%;
+}
+#team #about h5{
+    font-size: 20px;
+}
+#team #about h5:nth-child(2){
+    color:#4c4747;
+}
+
+
+#main #footer{
+    background-color:#000;
+    color:#ffff;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding:100px 0 0 0;
+}
+#footer #connect{
+    /* background-color: yellow; */
+}
+#footer #connect h4{
+    font-size: 40px;
+
+}
+#footer #connect h1{
+    font-size: 140px;
+    margin-bottom:20px;
+}
+#footer #connect button{
+    font-size: 18px;
+    font-weight: 550;
+    padding:10px 15px;
+    border-radius: 60px;
+}
+
+#footer #links{
+    padding:50px 50px;
+    display: flex;
+    gap:350px;
+}
+#footer #links #col ul li:first-child{
+    color:#968d8d
+}
+
+#footer #links #col ul li{
+    list-style-type: none;
+    padding:10px;
+    font-size: 20px;
+    font-weight:550;
+    text-align: left;
+}
+#footer #links #col ul li button{
+    font-size: 14px;
+    font-weight: 550;
+    padding:10px 14px;
+    border-radius: 60px;
+}
+.rmv-bodr{
+    border-bottom: none !important;
+}
